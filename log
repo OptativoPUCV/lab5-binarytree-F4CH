@@ -10,3 +10,17 @@ Mon 06 May 2024 11:39:13 PM UTC:
  tests:  5|7
 total_score: 5/70
 52236e2
+Mon 06 May 2024 11:49:17 PM UTC: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:
+treemap.c: In function ‘searchTreeMap’:
+treemap.c:97:1: error: expected expression before ‘}’ token
+   97 | }
+      | ^
+treemap.c:97:1: error: control reaches end of non-void function [-Werror=return-type]
+   97 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+6138e20
