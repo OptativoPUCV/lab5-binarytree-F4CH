@@ -123,3 +123,9 @@ treemap.c:104:16: error: unused variable ‘temp’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 75d94a1
+Tue 07 May 2024 02:21:16 AM UTC: 
+ treemap.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  16|4
+total_score: 30/70
+0c89841
