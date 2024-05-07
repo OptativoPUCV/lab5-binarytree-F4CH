@@ -83,8 +83,6 @@ void insertTreeMap(TreeMap * tree, void* key, void * value) {
             {
                 tree->current = current;
                 current->pair->value = value;
-                free(nuevo_nodo->pair);
-                free(nuevo_nodo);
                 return;
             }
         }
